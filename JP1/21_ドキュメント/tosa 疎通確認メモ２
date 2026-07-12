@@ -1,0 +1,66 @@
+vW4CNryr8HgS
+
+
+KNAC1101-I エージェント管理の情報の出力を開始します
+HOSTNAME:TYCLDS30
+AGENT           STATUS HOST            CON-EXE   QUE   JOB EVENT DESCRIPTION
+--------------- ------ -------------- -------- ----- ----- ----- --------------------
+@SYSTEM         Ef     TYCLDS30              5     0     0     2
+TYCLDS30        Ef     TYCLDS30              8     0     0     0
+TYCLDS31        Ef     TYCLDS31              5     0     0     0
+TYNUSS68        Ef     TYNUSS68              5     0     0     0
+TYNUSS65        Ef     TYNUSS65              5     0     0     0
+WIN-EPQDMQ0CNBN Ef     WIN-EPQDMQ0CNBN        5     0     0     0
+NAIS_FILE_AWS   Ef     NAIS_FILE_AWS         5     0     0     0
+apvnzp01        Ef     apvnzp01              5     0     0     0
+sofaap01        Ef     sofaap01              5     0     0     0
+TYCLDS18        Ef     TYCLDS18              5     0     0     0
+TYNUSS41        Ef     TYNUSS41              5     0     0     0
+TYNUSS40        Ef     TYNUSS40              5     0     0     0
+linkexpress01   Ef     linkexpress01         5     0     1     0
+edimaster01     Ef     edimaster01           5     0     0     0
+jobserver01     Ef     jobserver01           5     0     1     0
+KNAC1102-I エージェント管理の情報の出力を終了します
+
+
+
+ホスト名	IPアドレス	システム名／役割
+TYCLDS30	172.25.211.25	新ETL/JP1サーバ
+TYCLDS31	172.25.211.26	HULFT
+TYNUSS68	―	一覧に該当なし
+TYNUSS65	―	一覧に該当なし
+WIN-EPQDMQ0CNBN	―	一覧に該当なし
+NAIS_FILE_AWS	―	一覧に該当なし（NAIS系はホスト名「-」でIPのみ：172.25.170.5／90／92）
+apvnzp01	172.25.180.67	AP-Vision 本番サーバ
+sofaap01	―	一覧に該当なし（JP1メモでは「SOFAサーバ＝廃止済」）
+TYCLDS18	172.25.211.13	MD-AP/SPLサーバ
+TYNUSS41	172.25.150.168	ジョブサーバー
+TYNUSS40	172.25.150.166	LinkExpress/ハンディー向け通信サーバー
+linkexpress01	―	一覧に該当なし
+edimaster01	―	一覧に該当なし
+jobserver01	―	一覧に該当なし
+
+
+
+ajsagtadd -a linkexpress01  -s   linkexpress01.nustepdm.nustep.co.jp
+
+jp1ping -v -s linkexpress01.nustepdm.nustep.co.jp
+----------------------------------------------
+<<疎通確認ＯＫ>>
+--------------- ------ -------------- -------- ----- ----- ----- --------------------@SYSTEM         Ef     jobserver02           5     0     0     0
+jobserver01     Ef     jobserver01.NUSTEPDM.nustep.co.jp        5     0     0     0
+TYCLDS30        Ef     TYCLDS30.nustepdm.nustep.co.jp        5     0     0     0
+TYCLDS3         Ef     TYCLDS31.NUSTEPDM.nustep.co.jp        5     0     0     0
+TYCLDS18        Ef     TYCLDS18.nustepdm.nustep.co.jp        5     0     0     0
+TYNUSS41        Ef     TYNUSS41.NUSTEPDM.nustep.co.jp        5     0     0     0
+edimaster01     Ef     edimaster01.NUSTEPDM.nustep.co.jp        5     0     0     0
+▲sofaap01        Ef     sofaap01.NUSTEPDM.nustep.co.jp        5     0     0     0
+NAIS_FILE_AWS   Ef     NAIS_FILE_AWS.nustepdm.nustep.co.jp        5     0     0     0×TYNUSS68        Ef     TYNUSS68.nustepdm.nustep.co.jp        5     0     0     0
+apvnzp01        Ef     apvnzp01.nustepdm.nustep.co.jp        5     0     0     0
+linkexpress01   Ef     linkexpress01.nustepdm.nustep.co.jp        5     0     0     0
+----------------------------------------------
+<<IP未記載>>
+----------------------------------------------
+TYNUSS68  -- 172.25.150.195 (現行からping通らない)
+TYNUSS65  -- ホストが見つからない
+WIN-EPQDMQ0CNBN -- 172.25.150.163(現行からping通らない)

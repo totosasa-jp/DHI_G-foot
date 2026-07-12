@@ -1,0 +1,50 @@
+APV      apvnzp01.nustepdm.nustep.co.jp
+MD       TYCLDS18.nustepdm.nustep.co.jp
+         TYCLDS20.nustepdm.nustep.co.jp x
+JobServer jobserver01.NUSTEPDM.nustep.co.jp
+edimaster edimaster01.NUSTEPDM.nustep.co.jp
+HULFT     TYCLDS31.NUSTEPDM.nustep.co.jp
+LinkExpressServer   linkexpress01.nustepdm.nustep.co.jp
+                    ping 
+
+
+
+疎通確認の現状です。
+
+----------------------------------------------
+----------------------------------------------
+<<疎通確認ＯＫ>>
+--------------- ------ -------------- -------- ----- ----- ----- --------------------
+jobserver01     Ef     jobserver01.NUSTEPDM.nustep.co.jp        5     0     0     0
+TYCLDS30        Ef     TYCLDS30.nustepdm.nustep.co.jp        5     0     0     0
+TYCLDS31         Ef     TYCLDS31.NUSTEPDM.nustep.co.jp        5     0     0     0
+TYCLDS18        Ef     TYCLDS18.nustepdm.nustep.co.jp        5     0     0     0
+TYNUSS41        Ef     TYNUSS41.NUSTEPDM.nustep.co.jp        5     0     0     0
+edimaster01     Ef     edimaster01.NUSTEPDM.nustep.co.jp        5     0     0     0
+sofaap01        Ef     sofaap01.NUSTEPDM.nustep.co.jp        5     0     0     0
+NAIS_FILE_AWS   Ef     NAIS_FILE_AWS.nustepdm.nustep.co.jp        5     0     0     0
+----------------------------------------------
+<<IP未記載>>
+----------------------------------------------
+TYNUSS68
+TYNUSS65
+WIN-EPQDMQ0CNBN
+----------------------------------------------
+<<IPアドレスからホスト名を取得できない>>
+----------------------------------------------
+apvnzp01（172.25.180.67／逆引き不可）
+linkexpress01（172.25.180.101／逆引き不可）
+---------------------------------------------- （編集済み） 
+岩田益虎  [16:20]
+@土佐泰広
+不明点などは課題にあげておいてください。土佐泰広  [16:31]
+@岩田益虎
+承知しました。岩田益虎  [17:20]
+@東恩納渚 @土佐泰広
+会議資料は以下に置いてます。
+Box\2026_WindowsServer2016対応\DrSum ETL JP1（ＤＨＩ大阪）_WindowsServer2016対応\1_共通\13_会議資料\20260709_GF[17:20]20260709_会議資料.pptx
+岩田益虎  [17:35]
+@東恩納渚 @土佐泰広
+今日は残業ですみません。
+＋19時から会議あるのでこの会議終わったら私はすぐ事務所でます。（たぶん19時までこの会議続くので。。。）
+　すみませんが戸締りお願いします。

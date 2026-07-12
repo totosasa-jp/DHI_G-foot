@@ -1,0 +1,71 @@
+ホスト名	サービス	システム	タイプ	環境	IPアドレス	配置場所	OS	ローカル
+管理者アカウント	パスワード	Windows Updateの状況	備考	システム名	説明		
+ssxxap01	会計	SuperSteam	AP	本番	172.25.180.70	Oracle Cloud	Win	t900289			ドメイン設定による	SuperStream	APサーバ（SuperStream）		
+ssxxdp02	会計	SuperSteam	DB	本番	172.25.180.19	Oracle Cloud	Linux	t900289			ドメイン設定による	会計DBサーバ	本番DBサーバ		
+ssxxdt01	会計		DB	検証	172.25.180.5	Oracle Cloud	Linux				ドメイン設定による	会計DBサーバ	検証DBサーバ		
+gwmsdp01	物流		DB	本番	172.25.180.7	Oracle Cloud	Linux					物流（GWMS）	本番DBサーバ（GWMS）		
+apvnzp01	商品部	AP-Vision	AP	本番	172.25.180.67	Oracle Cloud	Win	t900289			ドメイン設定による	AP-Vision	本番サーバ		
+apvnzp02	商品部	AP-Vision	AP	検証	172.25.180.68	Oracle Cloud	Win	t900289			ドメイン設定による	AP-Vision	検証サーバ		http://172.25.150.206/oci-instance-manager/index.php
+apvndp01	商品部	AP-Vision	DB	本番	172.25.180.9	Oracle Cloud	Linux					AP-Vision　DBサーバ	本番兼検証DBサーバ		とテイストを合わせる
+agwkdp01	グループウェア	Web申請	DB	本番	172.25.180.10	Oracle Cloud	Win	t900289			ドメイン設定による	AgileWorks　DBサーバ	本番兼検証DBサーバ		
+agwkap01	グループウェア	Web申請	AP	本番	172.25.180.69	Oracle Cloud	Win	t900289			ドメイン設定による	AgileWorks	本番APサーバ		
+agwkat01	グループウェア	Web申請	AP	検証	172.25.180.66	Oracle Cloud	Win	t900289			ドメイン設定による	AgileWorks	検証APサーバ		
+bzpndp01	管理会計	BizPlan	APDB	本番	172.25.180.12	Oracle Cloud	Win	t900289			ドメイン設定による	BzPLAN	Web+AP+DBサーバ		
+	店舗	スマホ用在庫検索	AP	本番	172.25.180.71	Oracle Cloud	Win	t900289			ドメイン設定による				
+apjcap01	データ提供	APV実績帳票	AP	本番	172.25.180.76	Oracle Cloud	Win	t900289			ドメイン設定による	AP実績帳票	APV実績帳票サーバ		
+apjcat01	データ提供	APV実績帳票	AP	検証	172.25.180.77	Oracle Cloud	Win	t900289			ドメイン設定による	AP実績帳票	APV実績帳票開発サーバ		
+sboxap01	店舗	店舗BO メイン	AP	本番	172.25.180.78	Oracle Cloud	Win	t900289			ドメイン設定による	店舗BO	店舗BOサーバ		
+sbopap00	店舗	店舗BO PDFサーバ①	AP	本番	172.25.180.79	Oracle Cloud	Win	t900289			ドメイン設定による	店舗BO	店舗BO_PDF00サーバ		
+sbopap01	店舗	店舗BO PDFサーバ②	AP	本番	172.25.180.80	Oracle Cloud	Win	t900289			ドメイン設定による	店舗BO	店舗BO_PDF01サーバ		
+sbopap02	店舗				172.25.180.81	Oracle Cloud	Win				2025.5.12廃止予定	店舗BO	退店チェック		
+sbopap03	店舗	売変システム	AP	本番	172.25.180.82	Oracle Cloud	Win	t900289			ドメイン設定による	店舗BO	売変WEB		
+sboxat01	店舗	店舗BO 	AP	検証	172.25.180.86	Oracle Cloud	Win	t900289			ドメイン設定による	店舗BO	検証店舗BOサーバ		
+sbotools-test	店舗	チェックリスト関連	AP	検証	172.25.180.91	Oracle Cloud	Win	opc	JhWbi4!VhYHf			店舗BO	退店チェック等 検証		
+sbotools	店舗	チェックリスト関連	AP	本番	172.25.180.89	Oracle Cloud	Win	opc	JhWbi4!VhYHf			店舗BO	退店チェック等 本番		
+sapiap01	店舗	APIサーバ	AP	本番	172.25.180.83	Oracle Cloud	Win	opc	x8EsVJv!6U#k			APIサーバ	APIサーバ(レジ・値札系・モバイル)		
+rpaxsv01	RPA			本番	172.25.180.88	Oracle Cloud	Win					RPAサーバー	RPAサーバー		
+dwhxdp01	DWH			本番	172.25.180.30		アプライアンス					DWH	本番DBサーバ		
+motionbord01	モーションボード	モーションボード	MIDDLE	本番	172.25.180.99	Oracle Cloud	Win	opc	-		作成中				
+edimaster01	通信サーバー	全銀TCP	MIDDLE	本番	172.25.180.100	Oracle Cloud	Win	opc	-		172.25.150.163から移行中				
+linkexpress01	通信サーバー	LinkExpress／SFTP	MIDDLE	本番	172.25.180.101	Oracle Cloud	Win	opc	-		172.25.150.16６から移行中				
+jobserver01	ジョブサーバ	Dr.Sumジョブ起動等		本番	172.25.180.102	Oracle Cloud	Win					ジョブサーバー	ジョブサーバー		
+ad1	Windowsセキュリティ管理基盤	ActiveDirectory	MIDDLE	本番	172.25.180.105	Oracle Cloud	Win	opc	!Passw0rd			DNS(プライマリ)	本部AD入替目的で作った最終的にDNSとして稼働		
+ad2	Windowsセキュリティ管理基盤	ActiveDirectory	MIDDLE	本番	172.25.180.106	Oracle Cloud	Win	opc	!Passw0rd			DNS(セカンダリ)	本部AD入替目的で作った最終的にDNSとして稼働		
+wsus	Windowsセキュリティ管理基盤	WSUS	MIDDLE	本番	172.25.180.110	Oracle Cloud	Win	opc	!Passw0rd			WSUSサーバー	本部AD用WSUS		
+apex	Windowsセキュリティ管理基盤	Apex One	MIDDLE	本番	172.25.180.112	Oracle Cloud	Win	opc	!Passw0rd			Apex Oneサーバー	ウイルスバスターサーバー		
+TYNUSS47	データ提供	Dr.Sum AP			172.25.150.147	Intecデータセンター	Win	Administrator	!Passw0rd	設定されていない		Dr. SUM	Dr. SUM　AP		
+TYNUSS119	データ提供	Dr.Sum DB			172.25.150.251	Intecデータセンター	Win	Administrator	!Passw0rd	設定されていない		Dr. SUM	Dr.SUM DB		
+TYNUSS121	データ提供	Dr.Sum BackUp			172.25.150.253	Intecデータセンター	Win	Administrator	!Passw0rd			Dr. SUM	Dr.SUM Backup		
+TYNUSS72	プライベートクラウド	ESXi		本番	172.25.150.199	Intecデータセンター	Vmware	root	kgRmB21C		2025.5.31 廃止予定	プライベイトクラウド	プライベイトクラウド用サーバ①　仮想HOST		
+TYNUSS73	プライベートクラウド	ESXi		本番	172.25.150.200	Intecデータセンター	Vmware	root	kgRmB21C		2025.5.31 廃止予定	プライベイトクラウド	プライベイトクラウド用サーバ②　仮想HOST		
+TYNUSS74	プライベートクラウド	ESXi		本番	172.25.150.201	Intecデータセンター	Vmware	root	kgRmB21C		2025.5.31 廃止予定	プライベイトクラウド	プライベイトクラウド用サーバ③　仮想HOST		
+TYNUSS75	プライベートクラウド	vCenterServer		本番	172.25.150.202	プライベートクラウド	Vmware				2025.5.31 廃止予定	プライベイトクラウド	プライベイトクラウド①②③管理用VM		
+TYNUSS76	プライベートクラウド	ESXi		本番	172.25.150.203	Intecデータセンター	Vmware	root	kgRmB21C		2025.5.31 廃止予定	プライベイトクラウド	　仮想HOST		
+TYNUSS78	プライベートクラウド	BackUp		本番	172.25.150.208	Intecデータセンター	Win	-	-		2025.5.31 廃止予定	プライベイトクラウド	仮想サーババックアップ		
+TYCLDS18	商品部	MD	AP	本番	172.25.211.13	Intec仮想サーバ	Win				VINX契約	MD	MD-AP/SPLサーバ		
+TYCLDS20	商品部	MD	DB	本番	172.25.211.15	Intec仮想サーバ	Win				VINX契約	MD	MD-DBサーバ(本番・STG)		
+TYCLDS21	店舗	POP	AP	本番	172.25.211.16	Intec仮想サーバ	Win				VINX契約	POP	ＰＯＰ　ＷＥＢ１		
+TYCLDS22	店舗	POP	AP	本番	172.25.211.17	Intec仮想サーバ	Win				VINX契約	POP	ＰＯＰ　ＷＥＢ１		
+TYCLDS23	店舗	POP	AP	本番	172.25.211.18	Intec仮想サーバ	Win				VINX契約	POP	ＰＯＰ　ＷＥＢ１		
+TYCLDS24	店舗	POP	DB	本番	172.25.211.19	Intec仮想サーバ	Win				VINX契約	POP	ＰＯＰ　ＤＢ		
+TYCLDS27	人事	ADPS			172.25.211.22	Intec仮想サーバ	Win					人事管理システム	人事管理システム		
+TYCLDS32	ポータル				172.25.211.27	Intec仮想サーバ	Win				VINX契約	ポータル	ポータル		
+TYCLDS30	ジョブサーバ	Asteria,JP1			172.25.211.25	Intec仮想サーバ	Win				VINX契約	新ETL/JP1サーバ	新ETL/JP1サーバ		
+TYCLDS29	ファイルサーバ				172.25.211.24	Intec仮想サーバ	Win					共有フォルダー	共有フォルダー		
+TYCLDS31	通信サーバ	HULFT			172.25.211.26	Intec仮想サーバ	Win				VINX契約	HULFT	HULFT	100500	
+TYCLDS26	セキュリティ基盤	資産管理（Marion）			172.25.211.5	Intec仮想サーバ	Win					資産管理（Marion）	資産管理（Marion）		
+TYCLDS33	セキュリティ基盤	店舗WSUSサーバ			172.25.211.28	Intec仮想サーバ	Win				VINX契約	店舗WSUSサーバ	店舗WSUSサーバ	233673	
+TYCLDS34	セキュリティ基盤	店舗AD			172.25.211.29	Intec仮想サーバ	Win				VINX契約	店舗AD	店舗AD(プライマリ)		
+TYCLDS35	セキュリティ基盤	店舗AD			172.25.211.30	Intec仮想サーバ	Win				VINX契約	店舗AD	店舗AD(セカンダリ)		
+TYCLDS40		時間帯売上速報			172.25.210.8
+172.25.210.1	Intec仮想サーバ(DMZ)	Win				DMZ上のサーバ	DMZ
+・　たぴた
+・　時間帯売上速報	DMZ
+・　たぴた
+・　時間帯売上速報		
+TYCLDS41		単品QR在庫検索			172.25.210.9	Intec仮想サーバ(DMZ)	Win					QR在庫検索			
+-					172.25.170.5	AWS	Win					NAIS	NAIS　バッチサーバ		
+dbcorp1					172.25.170.90	AWS	Win					NAIS	NAIS　Teradata DBサーバ		
+-					172.25.170.92	AWS	Win					NAIS	NAIS　ViewPointサーバ		
+TYNUSS28					172.25.150.155	プライベートクラウド	Win					Nustepdm　ドメインコンピューター	Nustepdm　プライマリ　		
+TYNUSS29					172.25.150.156	プライベートクラウド	Win					Nustepdm　ドメインコンピューター	Nustepdm　セカンダリ　		

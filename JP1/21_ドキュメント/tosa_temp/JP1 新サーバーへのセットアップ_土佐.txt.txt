@@ -1,0 +1,45 @@
+新サーバーインスタンス：jobserver2(172.25.180.103)
+現行サーバーIPアドレス：172.25.211.25
+
+
+------------------------------------------------------------------------
+(旧サーバー情報）
+------------------------------------------------------------------------
+JP1 インストール先：C:\Program Files\Hitachi
+ディフォルトセットアップ先となります。
+
+
+現行システムのJP1セットアップフォルダの中身
+
+C:\Program Files\Hitachi 直下に以下のフォルダがあります。
+  HNTRLib2
+  JP1AS2DA
+  JP1AS3WEB
+  jp1common
+  systoru
+
+
+インストールされているソフトウェア（メニューから）
+
+JP1_Automatic Job Management System 3 
+
+Print Options
+Print Options Manager
+View
+Definition Assistant
+
+JP1_Base
+
+
+<Setup>
+https://itpfdoc.hitachi.co.jp/manuals/3021/30213L0900/BASE0070.HTM
+
+
+
+
+
+
+
+
+
+
